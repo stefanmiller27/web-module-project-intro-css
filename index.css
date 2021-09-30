@@ -1,0 +1,172 @@
+/*CSS Reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	/* border: 0; */
+	}
+/* remember to define focus styles! */
+
+/*General Styles*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color: #4f4f4f;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+h1{
+
+	font-family: 'Chelsea Market', cursive;
+	font-size:5rem;
+	padding: 5%;
+	
+
+}
+
+section{
+    padding:4% 0;
+
+
+}
+
+a{
+    text-decoration:none;
+	font-family: 'Roboto Mono', monospace;
+}
+
+nav{
+	padding: 2% 0
+}
+
+nav a{
+	display:inline-block;
+	width:10%;
+	padding:1% 0
+}
+
+nav a{
+	text-align:center;
+	border-radius: 10px;
+	color: #4f4f4f;
+
+}
+
+.orange{
+	background-color: #FF764E;
+	margin-left: 10%;
+	width: 15%
+}
+
+.blue{
+	background-color:#5ED3EB;
+	margin: 0 15%;
+	width: 15%
+
+}
+
+.yellow{
+	background-color: #FFCD69;
+	margin-right: 10%;
+	width:15%
+
+}
+
+.left, .right{
+	display: inline-block;
+	text-align: center;
+
+}
+
+.text{
+	position:relative;
+	bottom: 80px
+}
+
+
+
+
+
+.left{
+	width: 30%;
+}
+
+.right{
+	width: 55%;
+	margin-left: 5%;
+	position:absolute;
+	top: 35%
+
+}
+
+.left img{
+	border-radius: 50%;
+	width: 80%;
+}
+
+.middle{
+	background-color: #DDB9A3;
+	width: 90%;
+	text-align: center;
+	margin-left: 2%;
+	color: white;
+	padding: 2%
+
+
+
+}
+
+.fire img{
+	max-width: 11%;
+	height: auto;
+
+}
+
+.fire{
+	text-align: center;
+}
+
+.fire p{
+	width:50%;
+	text-align: center;
+	margin-left:25%
+}
+
+.truck p{
+	width: 50%;
+	margin-left:25% ;
+}
+
+.truck img{
+	max-width: 11%;
+	height: auto;
+}
+
+.truck{
+	text-align: center
+}
+
+.mountain img{
+	max-height: 300px;
+max-width: 1400px;
+width: 1400px;
+height: 300px;
+	
+}
+
+.park, .restriction{
+	font-weight: bold;
+}
